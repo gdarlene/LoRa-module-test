@@ -78,7 +78,7 @@ void loop() {
       rf95.send((uint8_t *)input.c_str(), input.length());
       rf95.waitPacketSent();
 
-      //Serial.println("Message sent!");
+      //To print message, Serial.println("Message sent!");
       Serial.println("***");
     }
   }
