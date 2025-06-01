@@ -153,11 +153,11 @@ void loop() {
             Serial.print("Sending: ");
             Serial.println(input);
 
-            if (sendSecureMessage(input.c_str())) {
-                Serial.println("Message sent successfully!");
-            } else {
-                Serial.println("Failed to send message!");
-            }
-        }
+      rf95.send((uint8_t *)input.c_str(), input.length());
+      rf95.waitPacketSent();
+
+      //Serial.println("Message sent!");
+      Serial.println("***");
     }
+  }
 }
