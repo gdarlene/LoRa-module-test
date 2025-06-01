@@ -1,6 +1,6 @@
 # LoRa Module Test Project
 
-This project implements a two-way communication system using LoRa (Long Range) radio modules with Arduino. It consists of two main components: a sender and a receiver, enabling long-range wireless communication.
+This project implements a two-way communication system using LoRa (Long Range communication protocol) radio modules with Arduino. It consists of two main components: a sender and a receiver, enabling long-range wireless communication.
 
 ## Project Overview
 
