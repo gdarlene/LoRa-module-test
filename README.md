@@ -1,4 +1,4 @@
-# Secure LoRa Communication System
+# Secure LoRa(Long Range) Communication System
 
 A secure and reliable communication system using LoRa modules, equipped with encryption and message retry mechanisms.
 
